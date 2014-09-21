@@ -1,84 +1,194 @@
-<html>
-<head>
-	<link rel="stylesheet" href="style.css">
-	<link href='http://fonts.googleapis.com/css?family=Montaga|Josefin+Sans:400' rel='stylesheet' type='text/css'>
-</head>
-<body>
-	<div class="overlay">
-		<div class="colorOverlay"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Himachal Mushrooms</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+
+		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+		<script type="text/javascript" src="js/camera.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script src="js/sorting.js" type="text/javascript"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
+		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+		
+
+		<script>
+			jQuery(function(){
+					jQuery('#camera_wrap_1').camera({
+					transPeriod: 500,
+					time: 3000,
+					height: '490px',
+					thumbnails: false,
+					pagination: true,
+					playPause: false,
+					loader: false,
+					navigation: false,
+					hover: false
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
+    
+    <!--home start-->
+    
+    <div id="home">
+    	<div class="headerLine">
+	<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					<div>
+						<a href="#">
+							<img src="images/logo.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu"style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li class="last"><a href="#contact">Contact</a></li>
+							<!--li><a href="#features">Features</a></li-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	
-	<div class="mainContent">
-		<div class="section intro">
-			<div class="whiteContainer">
-				<div class="introContent">
-					<div class="title">Himachal<br>Mushrooms</div>
-					<div class="text">
-						Combining the sincerity of traditional mushroom farming with the expertise of cutting edge agriculture technology, we cultivate mushrooms of very high quality and deliver them all across Delhi.
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section about">
-			<div class="content">
-				<div class="container">
-
-					<div class="title">Our Product - White Button Mushrooms</div>
-					<div class="text">
-						<p>
-							Ancient Egyptians believed mushrooms could grant immortality, and thus only the pharaohs were deemed worthy of eating or even touching them. In ancient Rome, mushrooms were often referred to as "food for the gods."" In Russia, China, and Mexico, and other world cultures, folklore held that mushrooms conferred superhuman strength.
-						</p>
-						<p>
-							Now, finally, the modest Agaricus bisporus mushrooms are attracting the well-deserved attention and praise of medical science. In her recent report, "Mushrooms — the New Superfood," leading nutritionist Jane Clarke summarizes major scientific studies from around the world that highlight the extraordinary nutritional value and the potential of mushroom health benefits.
-						</p>
-						<p>
-							To begin with, health experts and nutritionists refer to Agaricus bisporus mushrooms as nature's nutritional supplement. That's because mushrooms are loaded with the nutrients our bodies need to generate energy and repair cells — including digestive enzymes, a spectrum of B vitamins, protein, and vitamin D2.
-						</p>
-						<p>
-							At himachal mushrooms, we take special care to use the best quality compost and spawn to grow natural and great white mushroom.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section team">
-			<div class="content">
-				<div class="container">
-					<div class="title">
-						About Himachal Mushrooms
-					</div>
-					<div class="text">
-						Himachal Mushrooms Pvt. Ltd. was founded in 2014 by Ms. Isha Bharti and Mr. Kuldeep Singh. Our aim is to grow and sell top quality mushrooms to people. Our farm in Fardiabad is spread over 500 sq meters and requires the tireless effort of over 50 people to produce best mushrooms in Delhi.
-					</div>						
-					<div class="team">
-						<div class="member isha">
-							<div class="photo"></div>
-							<div class="description">
-								<div class="name">Isha Bharti</div>
-								<div class="details">
-									Isha did a B.Tech and M.Tech in biotechnology from JIIT, Noida. After working on dengue fever under a government funded project, Isha decided to use her knowledge and passion to try and grow a better crop of mushrooms.
+		<div class="container">
+			<div class="row wrap">
+				<div class="col-md-12 gallery"> 
+						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Best Quality</h2>
 								</div>
 							</div>
-						</div>
-
-						<div class="member kuldeep">
-							<div class="photo"></div>
-							<div class="description">
-								<div class="name">Kuldeep Singh</div>
-								<div class="details">
-									Kuldeep has  worked in the agriculture industry for over 20 years. He served as an associate director for RK Agro Products for 10 years and brings with him all the experience he earned there.
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Scientific Methods</h2>
 								</div>
 							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Himachal Roots</h2>
+								</div>
+							</div>
+						</div><!-- #camera_wrap_1 -->
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 cBusiness">
+					<h3>Highest Quality Mushrooms in Delhi</h3>
+					<h4 class="paragraph">We grow our mushrooms using highest standards of scientific agriculture, using the best compost and spawn possible, and paying attention to hygene at every point of the whole process</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 centPic">
+					<img class="img-responsive"  src="images/bizPic.png"/>
+				</div>
+			</div>
+		</div>   
+    </div>
+    
+    <!--about start-->    
+    
+    <div id="about">
+    	<div class="line2">
+			<div class="container">
+				<div class="row Fresh">
+					<div class="col-md-4 Des">
+						<i class="fa fa-leaf"></i>
+						<h4>Eco Friendly</h4>
+						<p>We do not use any techniques or chemicals that harm the environment around us, and use sustainable methods</p>
+					</div>
+					<div class="col-md-4 Ver">
+						<i class="fa fa-bolt"></i>
+						<h4>Using Mordern Agriculter Methods</h4>
+						<p>We use modern agricultural methods and technology to keep our crop healthy, fresh and free from any diseases</p>
+					</div>
+					<div class="col-md-4 Fully">
+						<i class="fa fa-heart"></i>
+						<h4>Good for Health</h4>
+						<p>Our mushrooms are clean, germ free and washed multiple times. They are as good for health as they are delicious delicious</p>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 wwa">
+					<span name="about" ></span>
+					<h3>About Himachal Mushrooms</h3>
+					<h4 class="paragraph">It is our passion and dream to bring the quality of mushrooms that grow in the mountains of himachal pradesh to the urban environment of Delhi and NCR. We follow a highly efficient scientific process paying attention to every detail of hygene and use the best compost and spawn to produce a healthy crop.</h4>
+				</div>
+			</div>
+		</div>
+		
+		<div style="position: relative;">
+		
+			<div class="container">
+				<div class="row about">
+					<div class="col-md-6">
+						<div class="about1">
+						<img class="pic1Ab" src="images/picAbout/aboutP1.png">
+							<h3>Isha Bharti, Administration</h3>
+							<p>Following her passion for bio, Isha did her M.Tech in biotech. She has previously worked on government funded projects on dengue. Now she uses her knowledge of technology to produce the best quality mushrooms</p>
 						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about2">
+						<img class="pic2Ab" src="images/picAbout/aboutP2.png">
+							<h3>Kuldeep Singh, Field</h3>
+							<p>With his twenty years of experience in the field of mushroom farming and roots in himachal pradesh, the land of mushrooms in India, he provides the experience and wisdom neccessary to run a mushroom farm</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		</div>
+    </div>
 
+    
+    <!--contact start-->
+    
+    <div id="contact">
+    	<div class="line5">					
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Got a Question? Want to place an order?</h3>
+					<p>Get in touch with us</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="section contact">
-			<div class="content">
-				<div class="container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-xs-12 forma">
+					<div class="container">
 
 					<div id="beforeSending">
 						<div class="title">Contact Us</div>
@@ -92,33 +202,18 @@
 					<form action="https://docs.google.com/forms/d/1hZEoZxO58lNGKzG5-nH0WxTS50ohQF7LofqoJr2W1Qw/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true"><ol role="list" class="ss-question-list" style="padding-left: 0">
 						<div class="ss-form-question errorbox-good" role="listitem">
 							<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-								<label class="ss-q-item-label" for="entry_1951116370"><div class="ss-q-title">Your Name
-									<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-									</div>
-									<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-									<input type="text" name="entry.1951116370" value="" class="ss-q-short" id="entry_1951116370" dir="auto" aria-label="Your Name  " aria-required="true" required="" title="" placeholder="Please enter your name here">
+									<input type="text" name="entry.1951116370" value="" class="ss-q-short col-md-6 col-xs-12 name" id="entry_1951116370" dir="auto" aria-label="Your Name  " aria-required="true" required="" title="" placeholder="Please enter your name here">
 									<div class="error-message" id="1936355172_errorMessage"></div>
 									
 								</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 								<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-									<label class="ss-q-item-label" for="entry_1505551934"><div class="ss-q-title">Contact Information
-										<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-										</div>
-										<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-										<input type="text" name="entry.1505551934" value="" class="ss-q-short" id="entry_1505551934" dir="auto" aria-label="Contact Information  " aria-required="true" required="" title=""  placeholder="Please enter your phone number or email Id or both here">
+										<input type="text" name="entry.1505551934" value="" class="ss-q-short col-md-6 col-xs-12 Email" id="entry_1505551934" dir="auto" aria-label="Contact Information  " aria-required="true" required="" title=""  placeholder="Please enter your phone number or email Id or both here">
 										<div class="error-message" id="1003469602_errorMessage"></div>
 										
 									</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 									<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
-										
 
-										<label class="ss-q-item-label" for="entry_1650674750"><div class="ss-q-title">Message
-											<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-											</div>
-											<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-											<div class="underline u1"></div>
-											<div class="underline u2"></div>
-											<textarea name="entry.1650674750" rows="8" cols="0" class="ss-q-long" id="entry_1650674750" dir="auto" aria-label="Message  " aria-required="true" required="" placeholder="Please write your message here"></textarea>
+											<textarea name="entry.1650674750" rows="8" cols="0" class="ss-q-long col-md-12 col-xs-12 Message" id="entry_1650674750" dir="auto" aria-label="Message  " aria-required="true" required="" placeholder="Please write your message here"></textarea>
 											<div class="error-message" id="1620603838_errorMessage"></div>
 											
 										</div></div></div>
@@ -129,14 +224,23 @@
 
 										<input type="hidden" name="fbzx" value="-3812127228205417742">
 
-										<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-											<input type="submit" name="submit" value="Send Message" id="ss-submit" class="jfk-button jfk-button-action ">
+										<div class="ss-item ss-navigate"><table id="navigation-table" style="clear:both"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+
+											<div class="cBtn col-xs-12">
+												<ul>
+													<li class="send">
+													<input type="submit" name="submit" value="Send Message" id="ss-submit" class="jfk-button jfk-button-action ">
+												</li>
+													
+												</ul>
+											</div>
+
 										</tr>
 									</tbody>
 								</table>
 							</div>
 						</ol>
-						`</form>
+					</form>
 					</div>
 					<div id="afterSending" class="hidden">
 						Thank your for communicating with us!<br>
@@ -145,10 +249,171 @@
 
 					
 				</div>
+				</div>
+				<div class="col-md-3 col-xs-12 cont">
+					<ul>
+						<li><i class="fa fa-home"></i>5512 Faridabad, Haryana - 110092</li>
+						<li><i class="fa fa-phone"></i>+999999999999, +99999999999</li>
+						<li><a href="#"><i class="fa fa-envelope"></i>mail@himachalmushrooms.com</li></a>
+						<li><a href="http://twitter.com/himachalmushrooms"><i class="fa fa-twitter"></i>Twitter</li></a>
+						<li><a href="http://facebook.com/himachalmushrooms"><i class="fa fa-facebook-square"></i>Facebook</li></a>
+					</ul>
+				</div>
 			</div>
-			<div class="footer">Copyright Himachal Mushrooms 2014</div>
 		</div>
-	</div>
+		<div class="line6">
+			<div class="mapOverlay"></div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>			
+		</div>
 
-</body>
-</html>		
+		<div class="lineBlack">
+			<div class="container">
+				<div class="row downLine">
+					<div class="col-md-6 text-left copy">
+						<p>Copyright &copy; 2014 Himachal Mushrooms. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-6 text-right dm">
+						<ul id="downMenu">
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li class="last"><a href="#contact">Contact</a></li>
+							<!--li><a href="#features">Features</a></li-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>		
+		
+		
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script>
+			$(document).ready(function(){
+			$(".bhide").click(function(){
+				$(".hideObj").slideDown();
+				$(this).hide(); //.attr()
+				return false;
+			});
+			$(".bhide2").click(function(){
+				$(".container.hideObj2").slideDown();
+				$(this).hide(); // .attr()
+				return false;
+			});
+				
+			$('.heart').mouseover(function(){
+					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+				}).mouseout(function(){
+					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+				});
+				
+				function sdf_FTS(_number,_decimal,_separator)
+				{
+				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+				var separator=(typeof(_separator)!='undefined')?_separator:'';
+				var r=parseFloat(_number)
+				var exp10=Math.pow(10,decimal);
+				r=Math.round(r*exp10)/exp10;
+				rr=Number(r).toFixed(decimal).toString().split('.');
+				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+				r=(rr[1]?b+'.'+rr[1]:b);
+
+				return r;
+}
+				
+			setTimeout(function(){
+					$('#counter').text('0');
+					$('#counter1').text('0');
+					$('#counter2').text('0');
+					setInterval(function(){
+						
+						var curval=parseInt($('#counter').text());
+						var curval1=parseInt($('#counter1').text().replace(' ',''));
+						var curval2=parseInt($('#counter2').text());
+						if(curval<=707){
+							$('#counter').text(curval+1);
+						}
+						if(curval1<=12280){
+							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
+						}
+						if(curval2<=245){
+							$('#counter2').text(curval2+1);
+						}
+					}, 2);
+					
+				}, 500);
+			});
+	</script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#menu').slicknav();
+		
+	});
+	</script>
+	
+	<script type="text/javascript">
+    $(document).ready(function(){
+       
+        var $menu = $("#menuF");
+            
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });
+	});
+    //jQuery
+	</script>
+	<script>
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( $(this).attr('href') ).offset().top );
+				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');				
+				}
+			})
+		};
+		
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});		
+	</script>	
+	<script type="text/javascript" charset="utf-8">
+
+		jQuery(document).ready(function(){
+			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+			
+		});
+	</script>
+	</body>
+	
+</html>
